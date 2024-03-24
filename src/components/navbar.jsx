@@ -27,6 +27,8 @@ const LeftWrapper = styled.div`
     width:30%;
     margin:7px 3px;
     border-radius:7px;
+    margin:7px 3px 7px 7px;
+    padding:20px 15px;
 `
 const RightWrapper = styled.div`
     width:70%;
@@ -44,7 +46,8 @@ function Navbar() {
                 <Container>
                     <LeftWrapper >
                         <div style={{
-                            backgroundColor:'gray'
+                            backgroundColor:'gray',
+                            borderRadius:'7px',
                         }}>
                             <div className="leftWrapper-navbar">
                                 <h2> <span><GoHomeFill /></span> Home</h2>
