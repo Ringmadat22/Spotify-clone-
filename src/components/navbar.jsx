@@ -3,6 +3,9 @@ import "../styles.css"
 import styled from 'styled-components';
 import { GoHomeFill } from "react-icons/go";
 import { LuSearch } from "react-icons/lu";
+import { LuLibrary } from "react-icons/lu";
+import { RiAddLine } from "react-icons/ri";
+import { FiArrowRight } from "react-icons/fi";
 
 
 
@@ -35,7 +38,11 @@ function Navbar() {
                             </div>
                             <div className="leftWrapper-lower">
                                 <div className="leftWrapper-lower-container">
-
+                                    <div>
+                                    <h3 title={"Collapse your library"}><span><LuLibrary /></span>Your Library </h3>
+                                    <RiAddLine />
+                                    <FiArrowRight />
+                                    </div>
                                 </div>
                             </div>
                         </div>
