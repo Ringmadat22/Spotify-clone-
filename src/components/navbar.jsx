@@ -6,6 +6,7 @@ import { LuSearch } from "react-icons/lu";
 import { LuLibrary } from "react-icons/lu";
 import { RiAddLine } from "react-icons/ri";
 import { FiArrowRight } from "react-icons/fi";
+import { IoListOutline } from "react-icons/io5";
 
 
 
@@ -42,6 +43,14 @@ function Navbar() {
                                     <h3 title={"Collapse your library"}><span><LuLibrary /></span>Your Library </h3>
                                     <RiAddLine />
                                     <FiArrowRight />
+                                    </div>
+                                    <div>
+                                        <p>Playlists</p>
+                                        <p>Artists</p>
+                                    </div>
+                                    <div>
+                                    <LuSearch />
+                                    <h3>Recents<span><IoListOutline /></span></h3>
                                     </div>
                                 </div>
                             </div>
