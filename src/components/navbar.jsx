@@ -16,14 +16,25 @@ const Section = styled.section`
 `
 const Container  = styled.div`
     width:100%;
+    display:flex;
+    justify-content:space-between;
+
 
 `
 const LeftWrapper = styled.div`
     width:100%;
+    background-color:white;
+    padding:10px;
+    width:30%;
+    margin:7px 3px;
 `
 const RightWrapper = styled.div`
-    width:100%;
-`
+    width:70%;
+    background-color:white;
+    height:90vh;
+    margin:7px 3px;
+    border-radius:7px;
+` 
 
 
 function Navbar() {
@@ -31,8 +42,10 @@ function Navbar() {
         <>
             <Section>
                 <Container>
-                    <LeftWrapper>
-                        <div>
+                    <LeftWrapper >
+                        <div style={{
+                            backgroundColor:'gray'
+                        }}>
                             <div className="leftWrapper-navbar">
                                 <h2> <span><GoHomeFill /></span> Home</h2>
                                 <h3><span><LuSearch /></span>Search </h3>
@@ -41,8 +54,8 @@ function Navbar() {
                                 <div className="leftWrapper-lower-container">
                                     <div>
                                     <h3 title={"Collapse your library"}><span><LuLibrary /></span>Your Library </h3>
-                                    <RiAddLine />
-                                    <FiArrowRight />
+                                    <RiAddLine title={"Create playlist folder"} />
+                                    <FiArrowRight title={"Show more"} />
                                     </div>
                                     <div>
                                         <p>Playlists</p>
