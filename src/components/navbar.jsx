@@ -27,6 +27,7 @@ const LeftWrapper = styled.div`
     padding:10px;
     width:30%;
     margin:7px 3px;
+    border-radius:7px;
 `
 const RightWrapper = styled.div`
     width:70%;
