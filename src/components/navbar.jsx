@@ -46,7 +46,7 @@ function Navbar() {
                             <div className="leftWrapper-navbar" style={{
                                     margin:'7px 3px 7px 7px',
                                     padding:'20px 15px',
-                                    backgroundColor:'gray',
+                                    backgroundColor:'#272727',
                                     lineHeight:'40px',
                                     fontSize:'13px',
                                     borderRadius:'7px',
