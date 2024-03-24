@@ -45,11 +45,11 @@ function Navbar() {
                 <Container>
                     <LeftWrapper >
                         <div style={{
-                            backgroundColor:'gray',
                             borderRadius:'7px',
                         }}>
                             <div className="leftWrapper-navbar" style={{
-
+                                    margin:'7px 3px 7px 7px',
+                                    padding:'20px 15px',
                             }}>
                                 <h2> <span><GoHomeFill /></span> Home</h2>
                                 <h3><span><LuSearch /></span>Search </h3>
