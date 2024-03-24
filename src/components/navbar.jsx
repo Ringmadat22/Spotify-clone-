@@ -24,7 +24,6 @@ const Container  = styled.div`
 const LeftWrapper = styled.div`
     width:100%;
     background-color:white;
-    padding:10px;
     width:30%;
     margin:7px 3px;
     border-radius:7px;
