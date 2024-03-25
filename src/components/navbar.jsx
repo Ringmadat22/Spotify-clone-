@@ -24,7 +24,7 @@ const Container  = styled.div`
 const LeftWrapper = styled.div`
     width:100%;
     background-color:black;
-    width:35%;
+    width:30%;
 
 `
 const RightWrapper = styled.div`
@@ -44,10 +44,11 @@ const H2 = styled.h2`
 
 const Div = styled.div`
 display:flex;
-justify-content:space-between;
+
 `
 
 const P = styled.p`
+background-color:rgb(63, 63, 62);
 `
 
 function Navbar() {
@@ -84,7 +85,7 @@ function Navbar() {
                                     borderRadius:'7px',
                                     color:'#aeafaf',
                                     cursor:'pointer'
-                            }}>
+                                }}>
                                 <div className="leftWrapper-lower-container">
                                     <div style={{display:'flex',justifyContent:'space-between'}}>
                                     <H2 style={{fontSize:'1.2rem'}} title={"Collapse your library"}><span style={{marginRight:'10px'}}><LuLibrary /></span>Your Library </H2>
@@ -94,12 +95,17 @@ function Navbar() {
                                     </Div>
                                     </div>
                                     <Div style={{width:'120px',marginTop:'20px'}}>
-                                        <p>Playlists</p>
-                                        <p>Artists</p>
+                                        <P>Playlists</P>
+                                        <P>Artists</P>
                                     </Div>
-                                    <Div>
+                                    <Div style={{
+                                        justifyContent:'space-between'
+                                    }}>
                                     <LuSearch />
-                                    <h3>Recents<span><IoListOutline /></span></h3>
+                                    <Div>
+                                        <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><IoListOutline /></i>
+                                        <H2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</H2>
+                                    </Div>
                                     </Div>
                                 </div>
                             </div>
