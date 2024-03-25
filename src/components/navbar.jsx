@@ -50,6 +50,7 @@ function Navbar() {
                                     lineHeight:'40px',
                                     fontSize:'13px',
                                     borderRadius:'7px',
+                                    cursor:'pointer'
                             }}>
                                 <div style={{display:'flex'}}>
                                     <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px'}}><GoHomeFill /></i>
@@ -60,12 +61,23 @@ function Navbar() {
                                     <h2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</h2>
                                 </div>
                             </div>
-                            <div className="leftWrapper-lower">
+                            <div className="leftWrapper-lower" style={{
+                                    margin:'7px 3px 7px 7px',
+                                    padding:'20px 15px',
+                                    backgroundColor:'#151515',
+                                    lineHeight:'30px',
+                                    fontSize:'13px',
+                                    borderRadius:'7px',
+                                    color:'#aeafaf',
+                                    cursor:'pointer'
+                            }}>
                                 <div className="leftWrapper-lower-container">
-                                    <div>
-                                    <h3 title={"Collapse your library"}><span><LuLibrary /></span>Your Library </h3>
-                                    <RiAddLine title={"Create playlist folder"} />
-                                    <FiArrowRight title={"Show more"} />
+                                    <div style={{display:'flex',justifyContent:'space-between'}}>
+                                    <h3 style={{fontSize:'25px'}} title={"Collapse your library"}><span style={{marginRight:'10px'}}><LuLibrary /></span>Your Library </h3>
+                                    <div style={{fontSize:'25px'}} >
+                                        <RiAddLine style={{margin:'0 20px'}} title={"Create playlist folder"} />
+                                        <FiArrowRight title={"Show more"} />
+                                    </div>
                                     </div>
                                     <div>
                                         <p>Playlists</p>
