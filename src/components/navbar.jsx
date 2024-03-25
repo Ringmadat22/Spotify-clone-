@@ -195,11 +195,33 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Liked Songs</h3>
-                                                <p>Playlists<GoDotFill />Spotify</p>
+                                                <h3>Polo G</h3>
+                                                <p>Artist</p>
                                             </div>
                                         </Li>
-                                        
+
+                                        <Li>
+                                            <div>
+                                                <Image src={goosebumps} alt="" />
+                                            </div>
+
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
+                                                <h3>Polo G</h3>
+                                                <p>Artist</p>
+                                            </div>
+                                        </Li>
+
+                                        <Li>
+                                            <div>
+                                                <Image src={goosebumps} alt="" />
+                                            </div>
+
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
+                                                <h3>Polo G</h3>
+                                                <p>Artist</p>
+                                            </div>
+                                        </Li>
+
                                     </ul>
                                     
                                 </div>
