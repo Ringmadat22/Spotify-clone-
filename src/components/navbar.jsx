@@ -9,7 +9,8 @@ import { FiArrowRight } from "react-icons/fi";
 import { IoListOutline } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 import { FaHeart } from "react-icons/fa6";
-import Future from '../images/future.png'
+import Future from '../images/future.png';
+import goosebumps from '../images/goosebumps.png'
 
 
 
@@ -172,22 +173,35 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Liked Songs</h3>
-                                                <p>Playlists<GoDotFill />77 songs</p>
+                                                <h3>RapCavier</h3>
+                                                <p>Playlists<GoDotFill />Spotify</p>
                                             </div>
                                         </Li>
 
                                         <Li>
                                             <div>
-                                                <Image src={""} alt="" />
+                                                <Image src={goosebumps} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
                                                 <h3>Liked Songs</h3>
-                                                <p>Playlists<GoDotFill />77 songs</p>
+                                                <p>Playlists<GoDotFill />Spotify</p>
                                             </div>
                                         </Li>
+
+                                        <Li>
+                                            <div>
+                                                <Image src={goosebumps} alt="" />
+                                            </div>
+
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
+                                                <h3>Liked Songs</h3>
+                                                <p>Playlists<GoDotFill />Spotify</p>
+                                            </div>
+                                        </Li>
+                                        
                                     </ul>
+                                    
                                 </div>
                             </div>
                         </div>
