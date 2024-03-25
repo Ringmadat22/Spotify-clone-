@@ -135,12 +135,25 @@ function Navbar() {
                                         <Span ><LuSearch  /></Span>
                                     <Div className="recents" style={{display:'flex'}} >
                                         <H2 style={{fontSize:'1rem',color:'#aeafaf', marginTop:'5px'}}>Recents</H2>
-                                        <h4 style={{marginRight:'20px',marginLeft:'5px', fontSize:'30px',marginTop:'5px',color:'#aeafaf'}}><IoListOutline /></h4>
+                                        <h4 style={{marginLeft:'5px', fontSize:'30px',marginTop:'5px',color:'#aeafaf'}}><IoListOutline /></h4>
                                     </Div>
                                     </Div>
                                 </div>
 
-                                
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <img src={""} alt=""/>
+                                            </div>
+
+                                            <div>
+                                                <h3>Liked Songs</h3>
+                                                <p></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </LeftWrapper>
