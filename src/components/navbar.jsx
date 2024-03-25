@@ -67,6 +67,21 @@ border-radius:30px;
 }
 `
 
+const Span = styled.span`
+height:30px;
+width:30px;
+font-size:1.1rem;
+display:flex;
+justify-content:center;
+align-items:center;
+transition:0.3s;
+border-radius:20px;
+&:hover {
+    background-color:rgb(63, 63, 62);
+}
+`
+
+
 function Navbar() {
     return(
         <>
@@ -117,13 +132,15 @@ function Navbar() {
                                     <Div style={{
                                         justifyContent:'space-between'
                                     }}>
-                                    <LuSearch />
-                                    <Div >
-                                        <H2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</H2>
-                                        <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><IoListOutline /></i>
+                                        <Span ><LuSearch  /></Span>
+                                    <Div className="recents" style={{display:'flex'}} >
+                                        <H2 style={{fontSize:'1rem',color:'#aeafaf', marginTop:'5px'}}>Recents</H2>
+                                        <h4 style={{marginRight:'20px',marginLeft:'5px', fontSize:'30px',marginTop:'5px',color:'#aeafaf'}}><IoListOutline /></h4>
                                     </Div>
                                     </Div>
                                 </div>
+
+                                
                             </div>
                         </div>
                     </LeftWrapper>
