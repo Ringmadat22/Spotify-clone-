@@ -7,6 +7,8 @@ import { LuLibrary } from "react-icons/lu";
 import { RiAddLine } from "react-icons/ri";
 import { FiArrowRight } from "react-icons/fi";
 import { IoListOutline } from "react-icons/io5";
+import { GoDotFill } from "react-icons/go";
+import { FaHeart } from "react-icons/fa6";
 
 
 
@@ -144,12 +146,34 @@ function Navbar() {
                                     <ul>
                                         <li>
                                             <div>
-                                                <img src={""} alt=""/>
+                                                <FaHeart />
                                             </div>
 
                                             <div>
                                                 <h3>Liked Songs</h3>
-                                                <p></p>
+                                                <p>Playlists<GoDotFill />77 songs</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div>
+                                                <img src={""} alt="" />
+                                            </div>
+
+                                            <div>
+                                                <h3>Liked Songs</h3>
+                                                <p>Playlists<GoDotFill />77 songs</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div>
+                                                <img src={""} alt="" />
+                                            </div>
+
+                                            <div>
+                                                <h3>Liked Songs</h3>
+                                                <p>Playlists<GoDotFill />77 songs</p>
                                             </div>
                                         </li>
                                     </ul>
