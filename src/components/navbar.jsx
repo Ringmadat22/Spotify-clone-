@@ -121,7 +121,6 @@ function Navbar() {
                                     <Div >
                                         <H2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</H2>
                                         <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><IoListOutline /></i>
-                                       
                                     </Div>
                                     </Div>
                                 </div>
