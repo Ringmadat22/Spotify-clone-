@@ -35,13 +35,27 @@ const RightWrapper = styled.div`
     border-radius:7px;
 ` 
 
+const H2 = styled.h2`
+  color: #aeafaf;
+  &:hover {
+    color: #fff; 
+  }
+`;
+
+const Div = styled.div`
+display:flex;
+justify-content:space-between;
+`
+
+const P = styled.p`
+`
 
 function Navbar() {
     return(
         <>
             <Section>
                 <Container>
-                    <LeftWrapper >
+                    <LeftWrapper className="leftWrapper">
                         <div>
                             <div className="leftWrapper-navbar" style={{
                                     margin:'7px 3px 7px 7px',
@@ -52,14 +66,14 @@ function Navbar() {
                                     borderRadius:'7px',
                                     cursor:'pointer'
                             }}>
-                                <div style={{display:'flex'}}>
+                                <Div>
                                     <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px'}}><GoHomeFill /></i>
-                                    <h2 style={{fontSize:'1rem'}}>Home</h2>
-                                </div>
-                                <div style={{display:'flex'}}>
+                                    <H2 style={{fontSize:'1rem',color:'#fff'}}>Home</H2>
+                                </Div>
+                                <Div>
                                     <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><LuSearch /></i>
-                                    <h2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</h2>
-                                </div>
+                                    <H2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</H2>
+                                </Div>
                             </div>
                             <div className="leftWrapper-lower" style={{
                                     margin:'7px 3px 7px 7px',
@@ -73,20 +87,20 @@ function Navbar() {
                             }}>
                                 <div className="leftWrapper-lower-container">
                                     <div style={{display:'flex',justifyContent:'space-between'}}>
-                                    <h3 style={{fontSize:'25px'}} title={"Collapse your library"}><span style={{marginRight:'10px'}}><LuLibrary /></span>Your Library </h3>
-                                    <div style={{fontSize:'25px'}} >
-                                        <RiAddLine style={{margin:'0 20px'}} title={"Create playlist folder"} />
-                                        <FiArrowRight title={"Show more"} />
+                                    <H2 style={{fontSize:'1.2rem'}} title={"Collapse your library"}><span style={{marginRight:'10px'}}><LuLibrary /></span>Your Library </H2>
+                                    <Div style={{fontSize:'1.2rem'}} >
+                                        <i><RiAddLine title={"Create playlist folder"} /></i>
+                                        <i><FiArrowRight title={"Show more"} /></i>
+                                    </Div>
                                     </div>
-                                    </div>
-                                    <div>
+                                    <Div style={{width:'120px',marginTop:'20px'}}>
                                         <p>Playlists</p>
                                         <p>Artists</p>
-                                    </div>
-                                    <div>
+                                    </Div>
+                                    <Div>
                                     <LuSearch />
                                     <h3>Recents<span><IoListOutline /></span></h3>
-                                    </div>
+                                    </Div>
                                 </div>
                             </div>
                         </div>
