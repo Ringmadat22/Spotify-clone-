@@ -33,7 +33,7 @@ const LeftWrapper = styled.div`
     width:100%;
     background-color:black;
     width:30%;
-
+    height:70vh;
 `
 const RightWrapper = styled.div`
     width:100%;
@@ -92,6 +92,12 @@ const Image = styled.img`
     width:50px;
     height:50px;
     border-radius:3px;
+`
+
+const ArtistImage = styled.img`
+    width:50px;
+    height:50px;
+    border-radius:50%;
 `
 
 const Li = styled.li`
@@ -196,7 +202,7 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={Polo} alt="" />
+                                                <ArtistImage src={Polo} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
@@ -207,7 +213,7 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={LilBaby} alt="" />
+                                                <ArtistImage src={LilBaby} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
@@ -218,7 +224,7 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={NBA} alt="" />
+                                                <ArtistImage src={NBA} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
@@ -229,7 +235,7 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={Latto} alt="" />
+                                                <ArtistImage src={Latto} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
