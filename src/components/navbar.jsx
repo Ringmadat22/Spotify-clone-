@@ -56,7 +56,15 @@ display:flex;
 `
 
 const P = styled.p`
-background-color:rgb(63, 63, 62);
+background-color:rgb(37, 37, 37);
+margin:0 10px 0 0;
+padding:3px 15px;
+font-size:0.9rem;
+color:#fff;
+border-radius:30px;
+&:hover{
+    background-color: rgb(45, 45, 45);
+}
 `
 
 function Navbar() {
@@ -102,7 +110,7 @@ function Navbar() {
                                         <i><FiArrowRight title={"Show more"} /></i>
                                     </Div>
                                     </div>
-                                    <Div style={{width:'120px',marginTop:'20px'}}>
+                                    <Div style={{width:'120px',margin:'20px 0'}}>
                                         <P>Playlists</P>
                                         <P>Artists</P>
                                     </Div>
