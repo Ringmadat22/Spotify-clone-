@@ -33,12 +33,12 @@ const LeftWrapper = styled.div`
     width:100%;
     background-color:black;
     width:30%;
-    height:70vh;
+
 `
 const RightWrapper = styled.div`
     width:100%;
     background-color:#151515;
-    height:90vh;
+    height:86.5vh;
     margin:7px 10px 7px 5px;
     border-radius:7px;
 ` 
@@ -57,6 +57,11 @@ const H3 = styled.h3`
     color: #fff; 
   }
 `;
+
+const ArtistH3 = styled.h3`
+  color:#fff;
+`
+
 
 const Div = styled.div`
 display:flex;
@@ -103,7 +108,14 @@ const ArtistImage = styled.img`
 const Li = styled.li`
     list-style:none;
     display:flex;
-    margin-bottom:10px;
+    align-items:center;
+    margin-bottom:4px;
+    padding:5px 3px 0 9px;
+    border-radius:4px;
+    transition:0.3s;
+    &:hover{
+        background-color: #262626;
+    }
 `
 
 
@@ -168,12 +180,12 @@ function Navbar() {
                                 <div>
                                     <ul style={{marginTop:'30px'}}>
                                         <Li>
-                                            <div style={{backgroundColor:'red',width:'50px',height:'50px',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'3px'}}>
+                                            <div style={{backgroundColor:'red',width:'50px',height:'50px',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'3px',marginBottom:'6px'}}>
                                                 <FaHeart style={{fontSize:'20px'}} />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Liked Songs</h3>
+                                                <ArtistH3>Liked Songs</ArtistH3>
                                                 <p>Playlists<GoDotFill />77 songs</p>
                                             </div>
                                         </Li>
@@ -184,7 +196,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>RapCavier</h3>
+                                                <ArtistH3>RapCavier</ArtistH3>
                                                 <p>Playlists<GoDotFill />Spotify</p>
                                             </div>
                                         </Li>
@@ -195,7 +207,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Liked Songs</h3>
+                                                <ArtistH3>Liked Songs</ArtistH3>
                                                 <p>Playlists<GoDotFill />Spotify</p>
                                             </div>
                                         </Li>
@@ -206,7 +218,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Polo G</h3>
+                                                <ArtistH3>Polo G</ArtistH3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
@@ -217,7 +229,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Lil Baby </h3>
+                                                <ArtistH3>Lil Baby </ArtistH3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
@@ -228,7 +240,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>NBA Young Boy</h3>
+                                                <ArtistH3>NBA Young Boy</ArtistH3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
@@ -239,7 +251,7 @@ function Navbar() {
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Big Latto</h3>
+                                                <ArtistH3>Big Latto</ArtistH3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
