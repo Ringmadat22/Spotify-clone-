@@ -11,5 +11,9 @@ html {
 }
 
 .leftwrapper{
-    background-color: #272727;
+    background-color: #aeafaf;
+}
+
+.leftWrapper-navbar h2 span{
+    font-size: 12px;
 }

@@ -29,9 +29,9 @@ const LeftWrapper = styled.div`
 `
 const RightWrapper = styled.div`
     width:100%;
-    background-color:white;
+    background-color:#151515;
     height:90vh;
-    margin:7px 3px;
+    margin:7px 10px 7px 5px;
     border-radius:7px;
 ` 
 
@@ -46,13 +46,19 @@ function Navbar() {
                             <div className="leftWrapper-navbar" style={{
                                     margin:'7px 3px 7px 7px',
                                     padding:'20px 15px',
-                                    backgroundColor:'#272727',
+                                    backgroundColor:'#151515',
                                     lineHeight:'40px',
                                     fontSize:'13px',
                                     borderRadius:'7px',
                             }}>
-                                <h2> <span><GoHomeFill /></span> Home</h2>
-                                <h3><span><LuSearch /></span>Search </h3>
+                                <div style={{display:'flex'}}>
+                                    <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px'}}><GoHomeFill /></i>
+                                    <h2 style={{fontSize:'1rem'}}>Home</h2>
+                                </div>
+                                <div style={{display:'flex'}}>
+                                    <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><LuSearch /></i>
+                                    <h2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</h2>
+                                </div>
                             </div>
                             <div className="leftWrapper-lower">
                                 <div className="leftWrapper-lower-container">
