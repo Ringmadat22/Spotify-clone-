@@ -10,7 +10,12 @@ import { IoListOutline } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 import { FaHeart } from "react-icons/fa6";
 import Future from '../images/future.png';
-import goosebumps from '../images/goosebumps.png'
+import goosebumps from '../images/goosebumps.png';
+import Latto from '../images/latto.png';
+import Polo from '../images/polog.png';
+import NBA from '../images/nba.png'
+import LilBaby from '../images/lilbaby.png'
+
 
 
 
@@ -191,7 +196,7 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={goosebumps} alt="" />
+                                                <Image src={Polo} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
@@ -202,22 +207,33 @@ function Navbar() {
 
                                         <Li>
                                             <div>
-                                                <Image src={goosebumps} alt="" />
+                                                <Image src={LilBaby} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Polo G</h3>
+                                                <h3>Lil Baby </h3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
 
                                         <Li>
                                             <div>
-                                                <Image src={goosebumps} alt="" />
+                                                <Image src={NBA} alt="" />
                                             </div>
 
                                             <div style={{lineHeight:'25px',marginLeft:'15px'}}>
-                                                <h3>Polo G</h3>
+                                                <h3>NBA Young Boy</h3>
+                                                <p>Artist</p>
+                                            </div>
+                                        </Li>
+
+                                        <Li>
+                                            <div>
+                                                <Image src={Latto} alt="" />
+                                            </div>
+
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
+                                                <h3>Big Latto</h3>
                                                 <p>Artist</p>
                                             </div>
                                         </Li>
