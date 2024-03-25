@@ -42,6 +42,14 @@ const H2 = styled.h2`
   }
 `;
 
+const H3 = styled.h3`
+  color: #aeafaf;
+  font-size:1rem;
+  &:hover {
+    color: #fff; 
+  }
+`;
+
 const Div = styled.div`
 display:flex;
 
@@ -73,7 +81,7 @@ function Navbar() {
                                 </Div>
                                 <Div>
                                     <i style={{marginRight:'20px', fontSize:'30px',marginTop:'4px',color:'#aeafaf'}}><LuSearch /></i>
-                                    <H2 style={{fontSize:'1rem',color:'#aeafaf'}}>Search</H2>
+                                    <H3 >Search</H3>
                                 </Div>
                             </div>
                             <div className="leftWrapper-lower" style={{
