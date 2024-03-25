@@ -9,7 +9,7 @@ import { FiArrowRight } from "react-icons/fi";
 import { IoListOutline } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 import { FaHeart } from "react-icons/fa6";
-
+import Future from '../images/future.png'
 
 
 
@@ -82,6 +82,17 @@ border-radius:20px;
     background-color:rgb(63, 63, 62);
 }
 `
+const Image = styled.img`
+    width:50px;
+    height:50px;
+    border-radius:3px;
+`
+
+const Li = styled.li`
+    list-style:none;
+    display:flex;
+    margin-bottom:10px;
+`
 
 
 function Navbar() {
@@ -143,39 +154,39 @@ function Navbar() {
                                 </div>
 
                                 <div>
-                                    <ul>
-                                        <li>
-                                            <div>
-                                                <FaHeart />
+                                    <ul style={{marginTop:'30px'}}>
+                                        <Li>
+                                            <div style={{backgroundColor:'red',width:'50px',height:'50px',display:'flex',justifyContent:'center',alignItems:'center',borderRadius:'3px'}}>
+                                                <FaHeart style={{fontSize:'20px'}} />
                                             </div>
 
-                                            <div>
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
                                                 <h3>Liked Songs</h3>
                                                 <p>Playlists<GoDotFill />77 songs</p>
                                             </div>
-                                        </li>
+                                        </Li>
 
-                                        <li>
+                                        <Li>
                                             <div>
-                                                <img src={""} alt="" />
+                                                <Image src={Future} alt="" />
                                             </div>
 
-                                            <div>
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
                                                 <h3>Liked Songs</h3>
                                                 <p>Playlists<GoDotFill />77 songs</p>
                                             </div>
-                                        </li>
+                                        </Li>
 
-                                        <li>
+                                        <Li>
                                             <div>
-                                                <img src={""} alt="" />
+                                                <Image src={""} alt="" />
                                             </div>
 
-                                            <div>
+                                            <div style={{lineHeight:'25px',marginLeft:'15px'}}>
                                                 <h3>Liked Songs</h3>
                                                 <p>Playlists<GoDotFill />77 songs</p>
                                             </div>
-                                        </li>
+                                        </Li>
                                     </ul>
                                 </div>
                             </div>
