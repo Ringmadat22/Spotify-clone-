@@ -44,3 +44,42 @@ html {
 .recents h4:hover {
     color: #fff;
 }
+
+.nav-h3 {
+    margin: 0 5px;
+    border-radius: 15px;
+    background-color: #262626;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-h3 i {
+    margin-top: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 5px; /* width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scrollbar handle */
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    height: 10px;/* roundness of the scrollbar handle */
+  }
+  
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: inherit; /* color of the scrollbar track */
+  }
+  

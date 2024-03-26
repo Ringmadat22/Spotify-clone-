@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import "../styles.css"
 import styled from 'styled-components';
 import { GoHomeFill } from "react-icons/go";
@@ -38,13 +38,18 @@ const LeftWrapper = styled.div`
     background-color:black;
     width:30%;
 
+
 `
 const RightWrapper = styled.div`
     width:100%;
     background-color:#151515;
     height:86.5vh;
     margin:7px 10px 7px 5px;
-    border-radius:7px;
+    border-top-right-radius: 0; 
+    border-top-left-radius: 7px; 
+    border-bottom-right-radius: 7px; 
+    border-bottom-left-radius: 7px; 
+    overflow-y: scroll;
 ` 
 
 const H2 = styled.h2`
@@ -126,13 +131,18 @@ const RightSection = styled.section`
 `
 
 const Nav = styled.nav`
-    width:100%
+    width:100%;
+    background-color:red;
+    padding:10px 25px;
+    border-top-right-radius: 0; 
+    border-top-left-radius:7px;
 `
 
 const UpperNav = styled.div`
     display:flex;
     justify-content:space-between;
-    background-color:red;
+    background-color:blue;
+    height:5vh;
 `
 
 const LeftUpperNav = styled.div`
@@ -140,15 +150,39 @@ const LeftUpperNav = styled.div`
 `
 
 const RightUpperNav = styled.div`
-
+    display:flex;
 `
 
 const LowerNav = styled.div`
+    background-color:brown;
+`
+
+const Hero = styled.div`
 
 `
 
 
-function Navbar() {
+const Navbar = () =>{
+
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+    const [visible, setVisible] = useState(true);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollPos > currentScrollPos;
+  
+        setPrevScrollPos(currentScrollPos);
+        setVisible(visible);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [prevScrollPos]);
+  
+
+
     return(
         <>
             <Section>
@@ -292,16 +326,16 @@ function Navbar() {
                         </div>
                     </LeftWrapper>
 
-                    <RightWrapper>
+                    <RightWrapper className='rightWrapper'>
                         <RightSection>
-                            <Nav>
-                                <div style={{
-                                    padding:'25px'
-                                }} >
+                            <Nav style={{ top: visible ? '0' : '-100px' }}>
+                                <div >
                                     <UpperNav>
                                         <LeftUpperNav>
                                             <h3 className="nav-h3">
-                                                <i><MdOutlineKeyboardArrowLeft /></i>
+                                                <i style={{
+                                                    color:'#aeafaf'
+                                                }}><MdOutlineKeyboardArrowLeft /></i>
                                             </h3>
 
                                             <h3 className="nav-h3">
@@ -309,7 +343,7 @@ function Navbar() {
                                             </h3>
                                         </LeftUpperNav>
                                         <RightUpperNav>
-                                            <ul>
+                                            <ul style={{display:'flex'}}>
                                                 <li>
                                                     <button>Explore Premium</button>
                                                 </li>
@@ -343,6 +377,7 @@ function Navbar() {
                                     </LowerNav>
                                 </div>
                             </Nav>
+
                         </RightSection>
                     </RightWrapper>
                 </Container>    
