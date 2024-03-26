@@ -377,7 +377,9 @@ const Navbar = () =>{
                                     </LowerNav>
                                 </div>
                             </Nav>
-
+                            <Hero>
+                                
+                            </Hero>
                         </RightSection>
                     </RightWrapper>
                 </Container>    
