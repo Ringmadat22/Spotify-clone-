@@ -17,6 +17,8 @@ import NBA from '../images/nba.png'
 import LilBaby from '../images/lilbaby.png'
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { GrInstallOption } from "react-icons/gr";
+import { FaRegBell } from "react-icons/fa";
 
 
 
@@ -128,10 +130,20 @@ const Nav = styled.nav`
 `
 
 const UpperNav = styled.div`
-
+    display:flex;
+    justify-content:space-between;
+    background-color:red;
 `
 
 const LeftUpperNav = styled.div`
+    display:flex;
+`
+
+const RightUpperNav = styled.div`
+
+`
+
+const LowerNav = styled.div`
 
 `
 
@@ -283,18 +295,52 @@ function Navbar() {
                     <RightWrapper>
                         <RightSection>
                             <Nav>
-                                <div>
+                                <div style={{
+                                    padding:'25px'
+                                }} >
                                     <UpperNav>
                                         <LeftUpperNav>
-                                            <h3>
+                                            <h3 className="nav-h3">
                                                 <i><MdOutlineKeyboardArrowLeft /></i>
                                             </h3>
 
-                                            <h3>
+                                            <h3 className="nav-h3">
                                                 <i><MdOutlineKeyboardArrowRight /></i>
                                             </h3>
                                         </LeftUpperNav>
+                                        <RightUpperNav>
+                                            <ul>
+                                                <li>
+                                                    <button>Explore Premium</button>
+                                                </li>
+
+                                                <li>
+                                                    <button><span><GrInstallOption /></span>Install App</button>
+                                                </li>
+
+                                                <li>
+                                                    <button><FaRegBell /></button>
+                                                </li>
+
+                                                <li>
+                                                    <button>
+                                                        <h2>R</h2>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </RightUpperNav>
                                     </UpperNav>
+                                    <LowerNav>
+                                        <ul>
+                                            <li>
+                                                <button>All</button>
+                                            </li>
+
+                                            <li>
+                                                <button>Music</button>
+                                            </li>
+                                        </ul>
+                                    </LowerNav>
                                 </div>
                             </Nav>
                         </RightSection>
