@@ -100,7 +100,11 @@ nav ul {
     font-size: 0.8rem;
     cursor: pointer;
     outline: none;
-    transition: 0.3s;
+    transition: 0.1s;
+}
+
+.nav ul li button:hover{
+    transform: scale(1.05);
 }
 
 .nav ul li .black-bg{
