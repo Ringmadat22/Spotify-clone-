@@ -117,6 +117,13 @@ const Li = styled.li`
         background-color: #262626;
     }
 `
+const RightSection = styled.section`
+    width:100%;
+`
+
+const Nav = styled.nav`
+    width:100%
+`
 
 
 function Navbar() {
@@ -264,7 +271,11 @@ function Navbar() {
                     </LeftWrapper>
 
                     <RightWrapper>
+                        <RightSection>
+                            <Nav>
 
+                            </Nav>
+                        </RightSection>
                     </RightWrapper>
                 </Container>    
             </Section>
