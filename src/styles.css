@@ -104,9 +104,9 @@ nav ul {
 .nav ul li .black-bg{
     background-color: black;
     color: #fff;
+    display: flex;
 }
 
 .nav ul li .black-bg span {
-    margin-top: 9px;
     margin-right: 10px;
 }
