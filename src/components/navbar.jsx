@@ -358,11 +358,11 @@ const Navbar = () =>{
                                                 </li>
 
                                                 <li>
-                                                    <button><FaRegBell /></button>
+                                                    <button className='noti-button'><FaRegBell /></button>
                                                 </li>
 
                                                 <li>
-                                                    <button>
+                                                    <button className='user-button'>
                                                         <h2>R</h2>
                                                     </button>
                                                 </li>
