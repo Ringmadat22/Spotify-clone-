@@ -125,6 +125,14 @@ const Nav = styled.nav`
     width:100%
 `
 
+const UpperNav = styled.div`
+
+`
+
+const LeftUpperNav = styled.div`
+
+`
+
 
 function Navbar() {
     return(
@@ -273,7 +281,13 @@ function Navbar() {
                     <RightWrapper>
                         <RightSection>
                             <Nav>
-
+                                <div>
+                                    <UpperNav>
+                                        <LeftUpperNav>
+                                            
+                                        </LeftUpperNav>
+                                    </UpperNav>
+                                </div>
                             </Nav>
                         </RightSection>
                     </RightWrapper>
