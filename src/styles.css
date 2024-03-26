@@ -105,8 +105,10 @@ nav ul {
     background-color: black;
     color: #fff;
     display: flex;
+
 }
 
 .nav ul li .black-bg span {
-    margin-right: 10px;
+    margin-right: 7px;
+    margin-top: 3px;
 }
