@@ -352,7 +352,7 @@ const Navbar = () =>{
                                                 </li>
 
                                                 <li>
-                                                    <Button className='black-bg'><span><GrInstallOption /></span>Install App</Button>
+                                                    <Button className='black-bg'><span><GrInstallOption /></span></Button>
                                                 </li>
 
                                                 <li>
