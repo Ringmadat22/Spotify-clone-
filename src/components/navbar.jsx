@@ -15,6 +15,8 @@ import Latto from '../images/latto.png';
 import Polo from '../images/polog.png';
 import NBA from '../images/nba.png'
 import LilBaby from '../images/lilbaby.png'
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 
 
@@ -284,7 +286,13 @@ function Navbar() {
                                 <div>
                                     <UpperNav>
                                         <LeftUpperNav>
-                                            
+                                            <h3>
+                                                <i><MdOutlineKeyboardArrowLeft /></i>
+                                            </h3>
+
+                                            <h3>
+                                                <i><MdOutlineKeyboardArrowRight /></i>
+                                            </h3>
                                         </LeftUpperNav>
                                     </UpperNav>
                                 </div>
