@@ -99,6 +99,7 @@ nav ul {
     background-color: #fff;
     font-size: 0.8rem;
     cursor: pointer;
+    outline: none;
 }
 
 .nav ul li .black-bg{
