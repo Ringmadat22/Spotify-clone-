@@ -348,7 +348,7 @@ const Navbar = () =>{
                                         <RightUpperNav>
                                             <ul>
                                                 <li>
-                                                    <Button className='black-bg'>Explore Premium</Button>
+                                                    <Button className='white-bg'>Explore Premium</Button>
                                                 </li>
 
                                                 <li>
