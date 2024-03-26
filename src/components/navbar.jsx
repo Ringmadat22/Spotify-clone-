@@ -141,6 +141,7 @@ const Nav = styled.nav`
 const UpperNav = styled.div`
     display:flex;
     justify-content:space-between;
+    padding-top:10px;
     background-color:blue;
     height:5vh;
 `
@@ -181,7 +182,9 @@ const Navbar = () =>{
       return () => window.removeEventListener('scroll', handleScroll);
     }, [prevScrollPos]);
   
-
+    const Button = styled.button`
+        padding:7px 10p;
+    `
 
     return(
         <>
@@ -328,7 +331,7 @@ const Navbar = () =>{
 
                     <RightWrapper className='rightWrapper'>
                         <RightSection>
-                            <Nav style={{ top: visible ? '0' : '-100px' }}>
+                            <Nav style={{ top: visible ? '0' : '-100px' }} className='nav'>
                                 <div >
                                     <UpperNav>
                                         <LeftUpperNav>
@@ -343,13 +346,13 @@ const Navbar = () =>{
                                             </h3>
                                         </LeftUpperNav>
                                         <RightUpperNav>
-                                            <ul style={{display:'flex'}}>
+                                            <ul>
                                                 <li>
-                                                    <button>Explore Premium</button>
+                                                    <Button>Explore Premium</Button>
                                                 </li>
 
                                                 <li>
-                                                    <button><span><GrInstallOption /></span>Install App</button>
+                                                    <Button><span><GrInstallOption /></span>Install App</Button>
                                                 </li>
 
                                                 <li>
@@ -378,7 +381,7 @@ const Navbar = () =>{
                                 </div>
                             </Nav>
                             <Hero>
-                                
+
                             </Hero>
                         </RightSection>
                     </RightWrapper>

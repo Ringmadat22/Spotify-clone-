@@ -83,3 +83,10 @@ html {
     background: inherit; /* color of the scrollbar track */
   }
   
+nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
