@@ -132,7 +132,6 @@ const RightSection = styled.section`
 
 const Nav = styled.nav`
     width:100%;
-    background-color:red;
     padding:10px 25px;
     border-top-right-radius: 0; 
     border-top-left-radius:7px;
@@ -142,8 +141,7 @@ const UpperNav = styled.div`
     display:flex;
     justify-content:space-between;
     padding-top:10px;
-    background-color:blue;
-    height:5vh;
+    height:6vh;
 `
 
 const LeftUpperNav = styled.div`
@@ -155,7 +153,6 @@ const RightUpperNav = styled.div`
 `
 
 const LowerNav = styled.div`
-    background-color:brown;
 `
 
 const Hero = styled.div`
@@ -362,9 +359,7 @@ const Navbar = () =>{
                                                 </li>
 
                                                 <li>
-                                                    <button className='user-button'>
-                                                        <h2>R</h2>
-                                                    </button>
+                                                    <h2>R</h2>
                                                 </li>
                                             </ul>
                                         </RightUpperNav>
