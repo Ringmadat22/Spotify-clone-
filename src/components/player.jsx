@@ -39,6 +39,7 @@ function Player() {
                     <div className="player-content">
                         <div className="first-div">
                             <div className="first-div-content">
+                                
                             <ul style={{ display:'flex'}}>
                                         <Li>
                                             <div>
@@ -50,7 +51,7 @@ function Player() {
                                                 <ArtistH3 style={{color:'gray'}}>Rapstar</ArtistH3>
                                             </div>
                                         </Li>
-                                        
+
                                         <Li>
                                             <ArtistH3>+</ArtistH3>
                                         </Li>
