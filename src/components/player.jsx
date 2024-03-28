@@ -39,8 +39,8 @@ function Player() {
                     <div className="player-content">
                         <div className="first-div">
                             <div className="first-div-content">
-                                
-                            <ul style={{ display:'flex'}}>
+
+                                <ul style={{ display:'flex'}}>
                                         <Li>
                                             <div>
                                                 <ArtistImage src={Polo} alt="" />
@@ -56,7 +56,7 @@ function Player() {
                                             <ArtistH3>+</ArtistH3>
                                         </Li>
 
-                                    </ul>
+                                </ul>
                             </div>
                         </div>
 
