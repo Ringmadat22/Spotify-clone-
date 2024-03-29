@@ -78,7 +78,7 @@ function Player() {
                                     <ul>
                                         <li><i><LuShuffle /></i></li>
                                         <li><i><GiPreviousButton /></i></li>
-                                        <li><i><FaPauseCircle style={{color:'white', fontSize:'2rem'}} /></i></li>
+                                        <li><i><FaPauseCircle style={{color:'white', fontSize:'2.5rem'}} /></i></li>
                                         <li><i><GiNextButton /></i></li>
                                         <li><i><RiRepeatLine /></i></li>
                                     </ul>

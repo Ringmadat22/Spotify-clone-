@@ -175,6 +175,7 @@ nav ul {
     list-style: none;
     margin: 0 15px;
     cursor: pointer;
+
 }
 
 .upper-second-div ul li i {
@@ -188,7 +189,7 @@ nav ul {
 
 .lower-second-div ul li{
     list-style: none;
-
+        font-size: 15px;
 }
 
 .player-bar {
