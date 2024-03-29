@@ -92,7 +92,6 @@ function Player() {
                                     <i><TbDevices2 /></i>
                                     <i><BsFillVolumeUpFill /></i>
                                     <p></p>
-                                    
                                 </div>
                             </div>
                         </div>
