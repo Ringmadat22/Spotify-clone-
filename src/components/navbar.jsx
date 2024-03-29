@@ -37,13 +37,13 @@ const LeftWrapper = styled.div`
     width:100%;
     background-color:black;
     width:30%;
-
+    height:90vh;
 
 `
 const RightWrapper = styled.div`
     width:100%;
     background-color:#151515;
-    height:86.5vh;
+    height:90vh;
     margin:7px 10px 7px 5px;
     border-top-right-radius: 0; 
     border-top-left-radius: 7px; 
@@ -211,7 +211,7 @@ const Navbar = () =>{
                                     margin:'7px 3px 7px 7px',
                                     padding:'20px 15px',
                                     backgroundColor:'#151515',
-                                    lineHeight:'30px',
+                                    lineHeight:'37px',
                                     fontSize:'13px',
                                     borderRadius:'7px',
                                     color:'#aeafaf',

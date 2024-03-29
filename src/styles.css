@@ -145,12 +145,10 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin-top: 20px;
 }
 
 .player-content{
     width: 98%;
     background-color: rebeccapurple;
-    height: 9vh;
+    height: 8vh;
 }
