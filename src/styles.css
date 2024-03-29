@@ -165,6 +165,18 @@ nav ul {
     background-color: red;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.upper-second-div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-second-div ul li{
+    list-style: none;
+    margin: 0 15px;
 }
 
 .lower-second-div{
@@ -176,7 +188,9 @@ nav ul {
 }
 
 .player-bar {
-    height: 3px;
-    background-color: #fff;
-    width: 100px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 500px;
+    margin: 7px 10px 0 10px; 
 }

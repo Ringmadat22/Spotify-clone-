@@ -75,16 +75,20 @@ function Player() {
                         <div className="second-div">
                             <div className="second-div-content">
                                 <div className="upper-second-div">
-                                    <i><LuShuffle /></i>
-                                    <i><GiPreviousButton /></i>
-                                    <i><FaPauseCircle /></i>
-                                    <i><GiNextButton /></i>
-                                    <i><RiRepeatLine /></i>
+                                    <ul>
+                                        <li><i><LuShuffle /></i></li>
+                                        <li><i><GiPreviousButton /></i></li>
+                                        <li><i><FaPauseCircle style={{color:'white', fontSize:'2.5rem'}} /></i></li>
+                                        <li><i><GiNextButton /></i></li>
+                                        <li><i><RiRepeatLine /></i></li>
+                                    </ul>
                                 </div>
                                 <div className="lower-second-div">
                                     <ul style={{display:'flex'}}>
                                         <li>1:30</li>
-                                        <li className="player-bar"></li>
+                                        <li className="player-bar">
+                                            <p className="player-bar-inner"></p>
+                                        </li>
                                         <li>3:00</li>
                                     </ul>
                                 </div>
