@@ -231,3 +231,8 @@ nav ul {
     margin: 0 10px;
     color: #ffffffc7;
 }
+
+.hero-container{
+    background-color: palegoldenrod;
+    width: 95%;
+}

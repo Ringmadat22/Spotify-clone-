@@ -109,6 +109,15 @@ const Image = styled.img`
     border-radius:3px;
 `
 
+const ImageNew = styled.img`
+    width:50px;
+    height:50px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    overflow:hidden;
+    margin-top:3px;
+`
+
 const ArtistImage = styled.img`
     width:50px;
     height:50px;
@@ -121,6 +130,20 @@ const Li = styled.li`
     align-items:center;
     margin-bottom:4px;
     padding:5px 3px 0 9px;
+    border-radius:4px;
+    transition:0.3s;
+    &:hover{
+        background-color: #262626;
+    }
+`
+
+const LiNew = styled.li`
+    list-style:none;
+    display:flex;
+    align-items:center;
+    margin-bottom:4px;
+    margin:10px;
+    padding:0;
     border-radius:4px;
     transition:0.3s;
     &:hover{
@@ -157,7 +180,9 @@ const LowerNav = styled.div`
 `
 
 const Hero = styled.div`
-
+    display:flex;
+    justify-content:center;
+    align-items:center;
 `
 
 
@@ -383,95 +408,95 @@ const Navbar = () =>{
                                     <div className='hero-content'>
                                         <section className='upper-hero-content'>
                                             <ul>
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
                                             </ul>
 
                                             <ul>
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
 
-                                                <Li>
+                                                <LiNew>
                                                     <div>
-                                                        <ArtistImage src={NBA} alt="" />
+                                                        <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
                                                         <ArtistH3>NBA Young Boy</ArtistH3>
                                                         <p><MdPlayCircleFilled /></p>
                                                     </div>
-                                                </Li>
+                                                </LiNew>
                                             </ul>
 
                                         </section>
