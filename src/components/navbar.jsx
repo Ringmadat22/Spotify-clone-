@@ -19,6 +19,7 @@ import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { GrInstallOption } from "react-icons/gr";
 import { FaRegBell } from "react-icons/fa";
+import { MdPlayCircleFilled } from "react-icons/md";
 
 
 
@@ -378,7 +379,104 @@ const Navbar = () =>{
                                 </div>
                             </Nav>
                             <Hero>
+                                <div className='hero-container'>
+                                    <div className='hero-content'>
+                                        <section className='upper-hero-content'>
+                                            <ul>
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
 
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+                                            </ul>
+
+                                            <ul>
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+
+                                                <Li>
+                                                    <div>
+                                                        <ArtistImage src={NBA} alt="" />
+                                                    </div>
+
+                                                    <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
+                                                        <ArtistH3>NBA Young Boy</ArtistH3>
+                                                        <p><MdPlayCircleFilled /></p>
+                                                    </div>
+                                                </Li>
+                                            </ul>
+
+                                        </section>
+                                    </div>
+                                </div>
                             </Hero>
                         </RightSection>
                     </RightWrapper>
