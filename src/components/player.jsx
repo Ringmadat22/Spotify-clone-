@@ -78,7 +78,7 @@ function Player() {
                                     <ul>
                                         <li><i><LuShuffle /></i></li>
                                         <li><i><GiPreviousButton /></i></li>
-                                        <li><i><FaPauseCircle style={{color:'white', fontSize:'2.5rem'}} /></i></li>
+                                        <li><i><FaPauseCircle style={{color:'white', fontSize:'2rem'}} /></i></li>
                                         <li><i><GiNextButton /></i></li>
                                         <li><i><RiRepeatLine /></i></li>
                                     </ul>
@@ -98,13 +98,15 @@ function Player() {
                         <div className="third-div">
                             <div className="third-div-content">
                                 <div className="upper-third-div">
-                                    <i><RiVideoFill /></i>
-                                    <i><PiMicrophoneStageFill /></i>
-                                    <i><HiMiniQueueList /></i>
-                                    <i><TbDevices2 /></i>
-                                    <i><BsFillVolumeUpFill /></i>
-                                    <p></p>
-                                    <i><GrExpand /></i>
+                                    <ul>
+                                        <li><i><RiVideoFill /></i></li>
+                                        <li><i><PiMicrophoneStageFill /></i></li>
+                                        <li><i><HiMiniQueueList /></i></li>
+                                        <li><i><TbDevices2 /></i></li>
+                                        <li><i><BsFillVolumeUpFill /></i></li>
+                                        <li><p></p></li>
+                                        <li><i><GrExpand /></i></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
