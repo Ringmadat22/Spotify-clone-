@@ -140,7 +140,6 @@ nav ul {
 
 
 .player-container{
-    background-color: green;
     width:100%;
     display: flex;
     justify-content: center;
@@ -151,7 +150,6 @@ nav ul {
     width: 99%;
     display: flex;
     justify-content: space-between;
-    background-color: rebeccapurple;
     height: 8vh;
 }
 
@@ -162,7 +160,6 @@ nav ul {
 }
 
 .player-content .second-div, .third-div{
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
