@@ -201,3 +201,35 @@ nav ul {
     width: 500px;
     margin: 7px 10px 0 10px; 
 }
+
+.third-div {
+    padding: 10px 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.third-div ul {
+    display: flex;
+}
+
+.third-div ul li {
+    list-style: none;
+
+}
+
+.third-div ul li p {
+    width: 100px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+
+.third-div ul li i {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    color: #ffffffc7;
+}
