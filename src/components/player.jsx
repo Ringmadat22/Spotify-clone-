@@ -81,6 +81,13 @@ function Player() {
                                     <i><GiNextButton /></i>
                                     <i><RiRepeatLine /></i>
                                 </div>
+                                <div className="lower-second-div">
+                                    <ul style={{display:'flex'}}>
+                                        <li>1:30</li>
+                                        <li className="player-bar"></li>
+                                        <li>3:00</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 

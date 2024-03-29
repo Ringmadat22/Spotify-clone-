@@ -167,3 +167,8 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
+
+.lower-second-div{
+    background-color: aqua;
+    width: 100%;
+}
