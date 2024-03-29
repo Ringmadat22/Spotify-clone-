@@ -110,8 +110,8 @@ const Image = styled.img`
 `
 
 const ImageNew = styled.img`
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
     overflow:hidden;
@@ -142,7 +142,8 @@ const LiNew = styled.li`
     display:flex;
     align-items:center;
     margin-bottom:4px;
-    margin:10px;
+    height:60px;
+    margin: 5px 10px 5px 0px;
     padding:0;
     border-radius:4px;
     transition:0.3s;

@@ -236,3 +236,20 @@ nav ul {
     background-color: palegoldenrod;
     width: 95%;
 }
+
+.upper-hero-content {
+    background-color: aquamarine;
+}
+
+.upper-hero-content ul {
+    display: flex;
+}
+
+.upper-hero-content ul li {
+    width: 100%;
+}
+
+.upper-hero-content ul li p {
+    font-size: 2rem;
+    padding-left: 60px;
+}
