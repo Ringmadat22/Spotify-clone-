@@ -12,6 +12,7 @@ import { PiMicrophoneStageFill } from "react-icons/pi";
 import { HiMiniQueueList } from "react-icons/hi2";
 import { TbDevices2 } from "react-icons/tb";
 import { BsFillVolumeUpFill } from "react-icons/bs";
+import { GrExpand } from "react-icons/gr";
 
 
 const ArtistH3 = styled.h3`
@@ -92,6 +93,7 @@ function Player() {
                                     <i><TbDevices2 /></i>
                                     <i><BsFillVolumeUpFill /></i>
                                     <p></p>
+                                    <i><GrExpand /></i>
                                 </div>
                             </div>
                         </div>
