@@ -157,4 +157,13 @@ nav ul {
 
 .player-content>div{
     width: 100%;
+    margin:4px 10px;
+
+}
+
+.player-content .second-div, .third-div{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

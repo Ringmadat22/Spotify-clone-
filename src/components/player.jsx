@@ -85,7 +85,7 @@ function Player() {
                         </div>
 
                         <div className="third-div">
-                        <div className="third-div-content">
+                            <div className="third-div-content">
                                 <div className="upper-third-div">
                                     <i><RiVideoFill /></i>
                                     <i><PiMicrophoneStageFill /></i>
