@@ -1,6 +1,12 @@
 import "../styles.css"
 import styled from 'styled-components';
 import Polo from '../images/polog.png';
+import { IoAddCircleOutline } from "react-icons/io5";
+import { LuShuffle } from "react-icons/lu";
+import { GiPreviousButton } from "react-icons/gi";
+import { FaPauseCircle } from "react-icons/fa";
+import { GiNextButton } from "react-icons/gi";
+import { RiRepeatLine } from "react-icons/ri";
 
 
 const ArtistH3 = styled.h3`
@@ -53,7 +59,7 @@ function Player() {
                                         </Li>
 
                                         <Li>
-                                            <ArtistH3>+</ArtistH3>
+                                            <ArtistH3><IoAddCircleOutline style={{fontSize:'1.5rem'}} /></ArtistH3>
                                         </Li>
 
                                 </ul>
@@ -61,7 +67,15 @@ function Player() {
                         </div>
 
                         <div className="second-div">
-
+                            <div className="second-div-content">
+                                <div className="upper-second-div">
+                                    <i><LuShuffle /></i>
+                                    <i><GiPreviousButton /></i>
+                                    <i><FaPauseCircle /></i>
+                                    <i><GiNextButton /></i>
+                                    <i><RiRepeatLine /></i>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="third-div">

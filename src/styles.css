@@ -149,6 +149,12 @@ nav ul {
 
 .player-content{
     width: 99%;
+    display: flex;
+    justify-content: space-between;
     background-color: rebeccapurple;
     height: 8vh;
+}
+
+.player-content>div{
+    width: 100%;
 }
