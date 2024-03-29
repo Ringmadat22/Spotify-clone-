@@ -7,6 +7,11 @@ import { GiPreviousButton } from "react-icons/gi";
 import { FaPauseCircle } from "react-icons/fa";
 import { GiNextButton } from "react-icons/gi";
 import { RiRepeatLine } from "react-icons/ri";
+import { RiVideoFill } from "react-icons/ri";
+import { PiMicrophoneStageFill } from "react-icons/pi";
+import { HiMiniQueueList } from "react-icons/hi2";
+import { TbDevices2 } from "react-icons/tb";
+import { BsFillVolumeUpFill } from "react-icons/bs";
 
 
 const ArtistH3 = styled.h3`
@@ -79,7 +84,17 @@ function Player() {
                         </div>
 
                         <div className="third-div">
-
+                        <div className="third-div-content">
+                                <div className="upper-third-div">
+                                    <i><RiVideoFill /></i>
+                                    <i><PiMicrophoneStageFill /></i>
+                                    <i><HiMiniQueueList /></i>
+                                    <i><TbDevices2 /></i>
+                                    <i><BsFillVolumeUpFill /></i>
+                                    <p></p>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
