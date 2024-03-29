@@ -165,10 +165,18 @@ nav ul {
     background-color: red;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .lower-second-div{
-    background-color: aqua;
     width: 100%;
+}
+
+.lower-second-div ul li{
+    list-style: none;
+}
+
+.player-bar {
+    height: 3px;
+    background-color: #fff;
+    width: 100px;
 }
