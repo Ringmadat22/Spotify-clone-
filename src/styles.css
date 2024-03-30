@@ -286,6 +286,7 @@ nav ul {
     transition: 0.3s;
     color: #ffffffab;
     cursor: pointer;
+    font-size: 0.8rem;
 }
 
 .hero-header p:hover {
