@@ -301,10 +301,11 @@ nav ul {
 .lower-hero-content-container-content  ul li{
     width: 100%;
     list-style: none;
-    height: 29vh;
+    height: 30vh;
     padding: 10px;
     border-radius: 8px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .lower-hero-content-container-content  ul li:hover{
@@ -336,10 +337,12 @@ nav ul {
 .lower-hero-content-container-content  ul li h2 {
     font-size: 0.9rem;
     margin:10px 0 8px 0;
+    cursor: pointer;
 
 }
 
 .lower-hero-content-container-content  ul li p {
     font-size: 0.8rem;
     color: #ffffffab;
+    line-height: 20px;
 }
