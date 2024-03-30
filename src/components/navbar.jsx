@@ -55,6 +55,7 @@ const RightWrapper = styled.div`
 
 const H2 = styled.h2`
   color: #aeafaf;
+  font-family: "Poppins", sans-serif;
   &:hover {
     color: #fff; 
   }
@@ -63,6 +64,7 @@ const H2 = styled.h2`
 const H3 = styled.h3`
   color: #aeafaf;
   font-size:1rem;
+  font-family: "Poppins", sans-serif;
   &:hover {
     color: #fff; 
   }
@@ -70,6 +72,9 @@ const H3 = styled.h3`
 
 const ArtistH3 = styled.h3`
   color:#fff;
+  font-family: "Poppins", sans-serif;
+  font-size:13px;
+  width:100%;
 `
 
 
@@ -145,6 +150,7 @@ const LiNew = styled.li`
     height:60px;
     margin: 5px 10px 5px 0px;
     padding:0;
+    overflow:hidden;
     cursor:pointer;
     border-radius:4px;
     transition:0.3s;
@@ -549,7 +555,7 @@ const Navbar = () =>{
                                                                 </div>
                                                             </div>
                                                         </li>
-                                                        
+
                                                         <li>
                                                             <div className=''>
                                                                 <div className='image-div'>
