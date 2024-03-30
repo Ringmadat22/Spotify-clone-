@@ -145,10 +145,12 @@ const LiNew = styled.li`
     height:60px;
     margin: 5px 10px 5px 0px;
     padding:0;
+    cursor:pointer;
     border-radius:4px;
     transition:0.3s;
+    background-color: #262626;
     &:hover{
-        background-color: #262626;
+        background-color: #363636;
     }
 `
 const RightSection = styled.section`
