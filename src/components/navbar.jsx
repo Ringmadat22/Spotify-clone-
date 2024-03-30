@@ -606,6 +606,7 @@ const Navbar = () =>{
                                                                 <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
+                                                                
 
                                                                 <div>
                                                                     <h2>Daily Mix 1</h2>
