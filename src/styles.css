@@ -335,7 +335,8 @@ nav ul {
 }
 .lower-hero-content-container-content  ul li h2 {
     font-size: 0.9rem;
-    margin-bottom: 6px;
+    margin:10px 0 8px 0;
+
 }
 
 .lower-hero-content-container-content  ul li p {
