@@ -503,7 +503,25 @@ const Navbar = () =>{
 
                                         <section className='lower-hero-content'>
                                             <div className='lower-hero-content-container'>
-                                                
+                                                <div className='lower-hero-content-container-content'>
+                                                    <div className='hero-header'>
+                                                    <h1>Made For Ringo</h1>
+                                                    <p>Show all</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div'>
+                                                                    <img src={Future} alt='' />
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </section>
                                     </div>
