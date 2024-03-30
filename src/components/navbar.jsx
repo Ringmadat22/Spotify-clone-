@@ -500,6 +500,12 @@ const Navbar = () =>{
                                             </ul>
 
                                         </section>
+
+                                        <section className='lower-hero-content'>
+                                            <div className='lower-hero-content-container'>
+                                                
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </Hero>
