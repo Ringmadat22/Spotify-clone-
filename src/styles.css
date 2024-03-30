@@ -275,12 +275,15 @@ nav ul {
 .lower-hero-content-container{
     background-color: blue;
     padding: 10px 0;
+    width: 99%;
 }
 
 .hero-header{
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    background-color: brown;
+    width: 100%;
 }
 
 .hero-header h1 {
@@ -290,4 +293,9 @@ nav ul {
 .hero-header p {
     transition: 0.3s;
     color: #ffffffab;
+    cursor: pointer;
+}
+
+.hero-header p:hover {
+    text-decoration: underline;
 }
