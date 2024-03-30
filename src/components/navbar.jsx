@@ -20,6 +20,9 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { GrInstallOption } from "react-icons/gr";
 import { FaRegBell } from "react-icons/fa";
 import { MdPlayCircleFilled } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { MdFacebook } from "react-icons/md";
 
 
 
@@ -606,7 +609,7 @@ const Navbar = () =>{
                                                                 <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
-                                                                
+
 
                                                                 <div>
                                                                     <h2>Daily Mix 1</h2>
@@ -861,6 +864,74 @@ const Navbar = () =>{
                                     </div>
                                 </div>
                             </Hero>
+
+                            <footer>
+                                <div className='footer-section'>
+                                    <div className='footer-container'>
+                                        <div>
+                                            <ul>
+                                                <h2>Company</h2>
+                                                <li>
+                                                    <a href='/'>About</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Jobs</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>For the records</a>
+                                                </li>
+
+                                            </ul>
+
+                                            <ul>
+                                                <h2>Communities</h2>
+                                                <li>
+                                                    <a href='/'>For Artists</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Developers</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Advertising</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Investors</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Vendors</a>
+                                                </li>
+
+                                            </ul>
+
+                                            <ul>
+                                                <h2>Useful Links</h2>
+                                                <li>
+                                                    <a href='/'>Support</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Free Mobile App</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div className='social-links'>
+                                        <ul>
+                                            <li><FaInstagram /></li>
+                                            <li><FaTwitter /></li>
+                                            <li><MdFacebook /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </footer>
                         </RightSection>
                     </RightWrapper>
                 </Container>    
