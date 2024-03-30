@@ -517,8 +517,7 @@ const Navbar = () =>{
                                                     <ul>
                                                         <li>
                                                             <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
 
@@ -530,22 +529,7 @@ const Navbar = () =>{
                                                         </li>
                                                         <li>
                                                             <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
-                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
-                                                                </div>
-
-                                                                <div>
-                                                                    <h2>Daily Mix 1</h2>
-                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li>
-                                                            <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
 
@@ -558,8 +542,21 @@ const Navbar = () =>{
 
                                                         <li>
                                                             <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
 
@@ -571,8 +568,7 @@ const Navbar = () =>{
                                                         </li>
                                                         <li>
                                                             <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
 
@@ -584,8 +580,8 @@ const Navbar = () =>{
                                                         </li>
                                                         <li>
                                                             <div className=''>
-                                                                <div className='image-div'>
-                                                                    <img src={Future} alt='' />
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
                                                                     <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
                                                                 </div>
 

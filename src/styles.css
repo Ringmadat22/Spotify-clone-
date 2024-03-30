@@ -287,7 +287,7 @@ nav ul {
 }
 
 .hero-header h1 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .hero-header p {
@@ -298,4 +298,32 @@ nav ul {
 
 .hero-header p:hover {
     text-decoration: underline;
+}
+
+.lower-hero-content-container-content  ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-hero-content-container-content  ul li{
+    width: 100%;
+    list-style: none;
+    margin-right: 10px;
+    height: 35vh;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.lower-hero-content-container-content  ul li>div> {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.lower-hero-content-container-content  ul li>div>div{
+    height: 20vh;
+}
+
+.lower-hero-content-container-content  ul li h2 {
+    font-size: 1rem;
 }
