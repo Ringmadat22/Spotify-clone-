@@ -248,6 +248,8 @@ nav ul {
 .upper-hero-content ul li p {
     font-size: 3rem;
     color: green;
+        opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .artist-h3 {
@@ -256,4 +258,9 @@ nav ul {
     display: flex;
     justify-content: left;
     align-items: center;
+}
+
+
+.upper-hero-content ul li:hover p {
+    opacity: 1;
 }
