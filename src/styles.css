@@ -233,13 +233,9 @@ nav ul {
 }
 
 .hero-container{
-    background-color: palegoldenrod;
     width: 95%;
 }
 
-.upper-hero-content {
-    background-color: aquamarine;
-}
 
 .upper-hero-content ul {
     display: flex;
@@ -250,5 +246,14 @@ nav ul {
 }
 
 .upper-hero-content ul li p {
-    font-size: 2rem;
+    font-size: 3rem;
+    color: green;
+}
+
+.artist-h3 {
+    padding-right: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }

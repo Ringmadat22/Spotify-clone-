@@ -409,47 +409,44 @@ const Navbar = () =>{
                                     <div className='hero-content'>
                                         <section className='upper-hero-content'>
                                             <ul>
-                                                <LiNew>
+                                            <LiNew>
                                                     <div>
                                                         <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
-
                                                 <LiNew>
                                                     <div>
                                                         <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
-
                                                 <LiNew>
                                                     <div>
                                                         <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
-
                                                 <LiNew>
                                                     <div>
                                                         <ImageNew src={NBA} alt="" />
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
                                             </ul>
@@ -461,8 +458,8 @@ const Navbar = () =>{
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
 
@@ -472,8 +469,8 @@ const Navbar = () =>{
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
 
@@ -483,8 +480,8 @@ const Navbar = () =>{
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
 
@@ -494,8 +491,8 @@ const Navbar = () =>{
                                                     </div>
 
                                                     <div style={{lineHeight:'25px',display:'flex',marginLeft:'15px'}}>
-                                                        <ArtistH3>NBA Young Boy</ArtistH3>
-                                                        <p><MdPlayCircleFilled /></p>
+                                                        <ArtistH3 className='artist-h3'>NBA Young Boy</ArtistH3>
+                                                        <p className=''><MdPlayCircleFilled /></p>
                                                     </div>
                                                 </LiNew>
                                             </ul>
