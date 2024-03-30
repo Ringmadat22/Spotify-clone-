@@ -594,6 +594,179 @@ const Navbar = () =>{
                                                     </ul>
                                                 </div>
                                             </div>
+                                            <div className='lower-hero-content-container'>
+                                                <div className='lower-hero-content-container-content'>
+                                                    <div className='hero-header'>
+                                                    <h1>Made For Ringo</h1>
+                                                    <p>Show all</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div className='lower-hero-content-container'>
+                                                <div className='lower-hero-content-container-content'>
+                                                    <div className='hero-header'>
+                                                    <h1>Made For Ringo</h1>
+                                                    <p>Show all</p>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div className=''>
+                                                                <div className='image-div' style={{backgroundImage: `url(${Polo})`, backgroundPosition:'center',backgroundSize:'cover'}}>
+
+                                                                    <p className='hero-heart-icon'><MdPlayCircleFilled /></p>
+                                                                </div>
+
+                                                                <div>
+                                                                    <h2>Daily Mix 1</h2>
+                                                                    <p>Future, Lil Baby, Metro Boomin and more</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </section>
                                     </div>
                                 </div>

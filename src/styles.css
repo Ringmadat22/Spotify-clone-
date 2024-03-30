@@ -250,7 +250,7 @@ nav ul {
 .upper-hero-content ul li p {
     font-size: 3rem;
     color: green;
-        opacity: 0;
+    opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -267,14 +267,7 @@ nav ul {
     opacity: 1;
 }
 
-.lower-hero-content{
-    background-color: purple;
-    padding: 10px 0;
-}
-
 .lower-hero-content-container{
-    background-color: blue;
-    padding: 10px 0;
     width: 99%;
 }
 
@@ -282,7 +275,6 @@ nav ul {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    background-color: brown;
     width: 100%;
 }
 
@@ -308,22 +300,44 @@ nav ul {
 .lower-hero-content-container-content  ul li{
     width: 100%;
     list-style: none;
-    margin-right: 10px;
-    height: 35vh;
-    background-color: aqua;
+    height: 29vh;
     padding: 10px;
     border-radius: 8px;
+    transition: 0.3s;
+}
+
+.lower-hero-content-container-content  ul li:hover{
+    background-color: #363636;
 }
 
 .lower-hero-content-container-content  ul li>div> {
     padding: 10px;
-    background-color: antiquewhite;
 }
 
 .lower-hero-content-container-content  ul li>div>div{
     height: 20vh;
+    border-radius: 9px;
 }
 
+.lower-hero-content-container-content  ul li>div>div .hero-heart-icon {
+    text-align: end;
+    font-size: 3rem;
+    padding-top: 130px;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.lower-hero-content-container-content  ul li:hover .hero-heart-icon{
+    opacity: 1;
+}
 .lower-hero-content-container-content  ul li h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+}
+
+.lower-hero-content-container-content  ul li p {
+    font-size: 0.8rem;
+    color: #ffffffab;
 }
