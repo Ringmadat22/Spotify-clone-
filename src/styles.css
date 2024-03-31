@@ -358,8 +358,6 @@ footer {
 .footer-section{
     width: 93%;
     background-color: blue;
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-container{
@@ -381,7 +379,7 @@ footer {
 
 .footer-ul ul h2 {
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 footer ul li {

@@ -931,6 +931,40 @@ const Navbar = () =>{
                                         </div>
 
                                     </div>
+
+                                    <div className='copyright'>
+                                        <div className='copyright-section'>
+                                            <ul className='copyright-ul'>
+                                                <li>
+                                                    <a href='/'>Legal</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Safety & Privacy Center</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Privacy Policy</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Cookies</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>About Ads</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href='/'>Accessibility</a>
+                                                </li>
+                                            </ul>
+
+                                            <ul className='right-copyright-ul'>
+                                                <li>&copy; 2024 Spotify AB</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                     
                                 </div>
                             </footer>
