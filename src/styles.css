@@ -358,7 +358,6 @@ footer {
 .footer-section{
     width: 93%;
     background-color: blue;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -366,15 +365,14 @@ footer {
 .footer-container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
-.footer-container>div {
-    background-color: red;
-}
 
 .footer-ul {
     display: flex;
     width: 100%;
+    background-color: gold;
 }
 
 .footer-ul ul {
@@ -399,4 +397,32 @@ footer ul li {
 
 .footer-ul ul li a:hover{
     text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background-color: green;
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-links ul li {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-links ul li:hover {
+    background-color: #888;
 }
