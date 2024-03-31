@@ -868,7 +868,7 @@ const Navbar = () =>{
                             <footer>
                                 <div className='footer-section'>
                                     <div className='footer-container'>
-                                        <div>
+                                        <div className='footer-ul'>
                                             <ul>
                                                 <h2>Company</h2>
                                                 <li>
@@ -922,14 +922,16 @@ const Navbar = () =>{
                                             </ul>
                                         </div>
 
-                                    </div>
-                                    <div className='social-links'>
+                                        <div className='social-links'>
                                         <ul>
                                             <li><FaInstagram /></li>
                                             <li><FaTwitter /></li>
                                             <li><MdFacebook /></li>
                                         </ul>
+                                        </div>
+
                                     </div>
+                                    
                                 </div>
                             </footer>
                         </RightSection>

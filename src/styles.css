@@ -358,4 +358,45 @@ footer {
 .footer-section{
     width: 93%;
     background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container>div {
+    background-color: red;
+}
+
+.footer-ul {
+    display: flex;
+    width: 100%;
+}
+
+.footer-ul ul {
+    margin-right:70px ;
+}
+
+.footer-ul ul h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer-ul ul li a {
+    font-size: 14px;
+    color: #aeafaf;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.footer-ul ul li a:hover{
+    text-decoration: underline;
 }
