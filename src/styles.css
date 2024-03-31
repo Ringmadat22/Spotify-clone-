@@ -346,3 +346,16 @@ nav ul {
     color: #ffffffab;
     line-height: 20px;
 }
+
+footer {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-section{
+    width: 93%;
+    background-color: blue;
+}
