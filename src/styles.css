@@ -348,7 +348,6 @@ nav ul {
 }
 
 footer {
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,7 +356,6 @@ footer {
 
 .footer-section{
     width: 93%;
-    background-color: blue;
 }
 
 .footer-container{
@@ -370,7 +368,6 @@ footer {
 .footer-ul {
     display: flex;
     width: 100%;
-    background-color: gold;
 }
 
 .footer-ul ul {
@@ -395,13 +392,13 @@ footer ul li {
 
 .footer-ul ul li a:hover{
     text-decoration: underline;
+    color: #fff;
 }
 
 .social-links {
     display: flex;
     justify-content: end;
     width: 100%;
-    background-color: green;
 }
 
 .social-links ul {
@@ -419,8 +416,49 @@ footer ul li {
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
+
 }
 
 .social-links ul li:hover {
     background-color: #888;
+}
+
+.copyright {
+    margin-top: 30px;
+    border-top: 1px solid #88888840;
+    padding: 30px 0 70px 0;
+}
+
+.copyright-section {
+    display: flex;
+}
+
+.copyright-ul {
+    display: flex;
+    width: 100%;
+}
+
+.copyright-ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.copyright ul li a {
+    font-size: 13px;
+    color: #aeafaf;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.copyright ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-copyright-ul li {
+    font-size: 13px;
+    color: #aeafaf;
+    transition: 0.3s;
+    text-decoration: none;
+    width:125px;
 }
